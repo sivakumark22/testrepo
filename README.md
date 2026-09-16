@@ -11,7 +11,7 @@ Minimal Spring Boot service and GitHub Actions CI/CD pipeline to:
 
 - Java 17
 - Spring Boot 3
-- Actuator health endpoints for Kubernetes probes
+- `/health` endpoint for Kubernetes probes
 
 Run locally:
 
