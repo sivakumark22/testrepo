@@ -23,6 +23,7 @@ java -jar target/testrepo-0.0.1-SNAPSHOT.jar
 ## CI/CD workflow
 
 Workflow file: `.github/workflows/cicd-aks.yml`
+Code scanning workflow: `.github/workflows/codeql.yml`
 
 Pipeline order:
 
