@@ -20,6 +20,12 @@ mvn clean test package
 java -jar target/testrepo-0.0.1-SNAPSHOT.jar
 ```
 
+Build Docker image (multi-stage build compiles the app inside Docker):
+
+```bash
+docker build -t testrepo:local .
+```
+
 ## CI/CD workflow
 
 Workflow file: `.github/workflows/cicd-aks.yml`
