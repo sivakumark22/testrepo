@@ -30,6 +30,7 @@ docker build -t testrepo:local .
 
 Workflow file: `.github/workflows/cicd-aks.yml`
 Code scanning workflow: `.github/workflows/codeql.yml`
+Vulnerability scanning workflow: `.github/workflows/security-scan.yml`
 
 Pipeline order:
 
